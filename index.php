@@ -2,9 +2,9 @@
 $title="Welcome Page";
 include 'includes/header.php'?>
 
-<h1><?php echo $title ?></h1> 
-
 <?php //php tag to facilitate using php functions
+
+echo '<h1>Welcome Page<h1>';
 
 echo '<br/>';
 
@@ -31,7 +31,7 @@ echo '<br/>';
 ?>
 
 <button type="button" class="btn btn-info">Click Here</button>
-<a href="https://www.heroku.com/" class="btn btn-danger">Heroku.com</a>
+<a href="https://www.heroku.com/" target="_blank" class="btn btn-danger">Heroku.com</a>
 
 <?php 
 
