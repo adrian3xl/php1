@@ -2,7 +2,9 @@
 $title="Welcome Page";
 include 'includes/header.php'?>
 
-<?php //php tag to facilitate using php functions
+<?php 
+
+//php tag to facilitate using php functions
 
 echo '<h1>Welcome Page<h1>';
 
